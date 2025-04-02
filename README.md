@@ -25,10 +25,10 @@ In `config.lua`, you can adjust the following settings:
 ```lua
 Config = {}
 
-Config.UseMPH = false -- false = km/h | true = mph
+Config.UseMPH = false -- false = km/h | true = mph 
 
 -- Define speed limits for vehicle classes (-1 = no speed limit)
-Config.OffRoadLimitClasses = {
+Config.OffRoadLimitClasses = { 
     [0] = -1, -- Compacts
     [1] = -1, -- Sedans
     [2] = -1, -- SUVs
@@ -55,7 +55,7 @@ Config.OffRoadLimitClasses = {
 
 -- Custom vehicle-specific speed limits
 Config.UseCustomOffRoadLimit = false -- Set to false to only use class-based limits
-Config.CustomOffRoadLimits = {
+Config.CustomOffRoadLimits = { 
     ["t20"] = 50,
     ["adder"] = 40,
 }
@@ -79,6 +79,9 @@ Config.offroadMaterials = {
     24 -- Another GTA sand type
 }
 ```
+
+## 🎯 Motivation
+This script was created in response to overpriced alternatives on the market. The idea came from seeing similar systems being sold for high prices, such as [this one](https://pruda-scripts.tebex.io/package/6472654). I believe such a simple functionality should be freely available to the community!
 
 ## 🛠️ Support & Development
 If you have any questions or want to contribute to further development, feel free to create an issue or pull request!
