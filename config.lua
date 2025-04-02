@@ -32,7 +32,7 @@ Config.OffRoadLimitClasses = {
 -- Here you can define special car models that should have their own off-road limitation 
 Config.UseCustomOffRoadLimit = false -- set this to false if you only want to define the off-road limits by vehicle classes
 Config.CustomOffRoadLimits = { 
-	["t20"] = 50,
+    ["t20"] = 50,
     ["adder"] = 40, 
 }
 
